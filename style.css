@@ -798,6 +798,60 @@ footer a:hover{
 }
 
 
+/*About Page*/
+
+#page-header.about-header {
+    background-image: url("./img/604ebaf9c92e47921e89c801c9fc03f5.jpg");
+}
+#about-head {
+    display: flex;
+    align-items: center;
+}
+#about-head h2{
+    color:#465b52;
+}
+#about-head p{
+    color:#000;
+    font-weight: 400;
+    justify-content: center;
+}
+
+#about-head video {
+    width: 800px;
+    height: 600px;
+    margin-right: 20px;
+ 
+}
+
+#about-head div {
+    flex: 1;
+}
+
+#about-head marquee{
+    color:#2f4435;
+    justify-content: flex-end;
+}
+
+#about-app{
+    text-align: center;
+}
+
+
+#about-app .video{
+    width: 70%;
+    height: 90%;
+    margin: 30px auto 0 auto;
+
+}
+
+#about-app .video video{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+
 /*For Mobiles Screens*/
 
 @media (max-width: 477px) {
@@ -883,5 +937,24 @@ footer a:hover{
         width: 100%;
         margin-right: 0px;
         margin-bottom: 30px;
+    }
+
+    /*About Page*/
+
+    #about-head {
+        flex-direction: column-reverse;
+           
+    }
+    
+    #about-head video {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        
+    }
+    
+    #about-head div {
+        padding-left: 0;
+           
     }
 }
