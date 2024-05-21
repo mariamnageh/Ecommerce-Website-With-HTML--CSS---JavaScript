@@ -396,7 +396,7 @@ body{
         }
 
 #banner3 .banner-box3{
-    background-image: url("./img/banner3.gif");
+    background-image: url("./img/banner/banner3.gif");
 }
 
 #banner3 .banner-box h2{
@@ -416,7 +416,6 @@ body{
       justify-content: space-between;
       flex-wrap: wrap;
       align-items: center;
-      background-image: url("img/banner/b14.png");
       background-repeat: no-repeat;
       background-position: 20% 30%;
       background-color:#465b52;
